@@ -9,3 +9,4 @@ X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\
 X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EasyReceipts.pdb
 X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.dll
 X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.pdb
+X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.csprojResolveAssemblyReference.cache
