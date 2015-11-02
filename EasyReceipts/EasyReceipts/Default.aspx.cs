@@ -9,13 +9,19 @@ namespace ReceiptFriend
 {
     public partial class Default : System.Web.UI.Page
     {
+
+       //test
+          
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
         public void Do_Something(object sender, EventArgs e)
         {
-            string blaze_Action = "The Blaze Family ROcks!";
+            string userName= SubmitLinkButton.Text;
+            string pwd = thePassword.Text;
+           
+           
            
         }
 
