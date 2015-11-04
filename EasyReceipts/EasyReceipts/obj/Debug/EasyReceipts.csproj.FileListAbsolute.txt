@@ -1,0 +1,12 @@
+x:\folder redirection\my documents\visual studio 2013\Projects\EasyReceipts\EasyReceipts\bin\EasyReceipts.dll.config
+x:\folder redirection\my documents\visual studio 2013\Projects\EasyReceipts\EasyReceipts\bin\EasyReceipts.dll
+x:\folder redirection\my documents\visual studio 2013\Projects\EasyReceipts\EasyReceipts\bin\EasyReceipts.pdb
+x:\folder redirection\my documents\visual studio 2013\Projects\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.csprojResolveAssemblyReference.cache
+x:\folder redirection\my documents\visual studio 2013\Projects\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.dll
+x:\folder redirection\my documents\visual studio 2013\Projects\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.pdb
+X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EasyReceipts.dll.config
+X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EasyReceipts.dll
+X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EasyReceipts.pdb
+X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.dll
+X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.pdb
+X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.csprojResolveAssemblyReference.cache
