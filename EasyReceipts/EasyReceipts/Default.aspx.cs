@@ -20,7 +20,7 @@ namespace ReceiptFriend
         {
             string userName= SubmitLinkButton.Text;
             string pwd = thePassword.Text;
-           
+          
            
            
         }
