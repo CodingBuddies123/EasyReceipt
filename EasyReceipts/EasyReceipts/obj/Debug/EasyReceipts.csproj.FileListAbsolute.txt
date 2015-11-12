@@ -10,3 +10,12 @@ X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\
 X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.dll
 X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.pdb
 X:\Folder Redirection\My Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.csprojResolveAssemblyReference.cache
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EasyReceipts.dll.config
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EasyReceipts.dll
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EasyReceipts.pdb
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.dll
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.pdb
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EntityFramework.dll
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EntityFramework.SqlServer.dll
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EntityFramework.xml
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\EntityFramework.SqlServer.xml
