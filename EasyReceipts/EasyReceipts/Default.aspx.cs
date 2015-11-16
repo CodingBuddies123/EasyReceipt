@@ -15,7 +15,7 @@ namespace ReceiptFriend
 
        //test
 
-        //Jordan Comment 1
+        
           
         protected void Page_Load(object sender, EventArgs e)
         {
