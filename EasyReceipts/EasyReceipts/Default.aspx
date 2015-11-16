@@ -38,10 +38,10 @@
                                     <br />
                                     <div class="form-group">
 
-                                        <input class="form-control" placeholder="yourmail@example.com" name="email" type="text" size="10" />
+                                        <input class="form-control" runat="server" placeholder="yourmail@example.com" name="email" type="text" size="10" id="user" />
                                     </div>
                                     <div class="form-group">
-                                        <asp:TextBox CssClass="form-control" placeholder="Password" type="password" ID="thePassword" runat="server" />
+                                        <asp:TextBox CssClass="form-control"  ID="thePassword" runat="server" />
                                     </div>
                                     <div class="checkbox">
                                         <label>
