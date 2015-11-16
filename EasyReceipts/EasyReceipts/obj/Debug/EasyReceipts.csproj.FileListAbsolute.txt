@@ -29,3 +29,4 @@ C:\Users\Jordan\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\bin\Entit
 C:\Users\Jordan\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.csprojResolveAssemblyReference.cache
 C:\Users\Jordan\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.dll
 C:\Users\Jordan\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.pdb
+C:\Users\20904\Documents\GitHub\EasyReceipt\EasyReceipts\EasyReceipts\obj\Debug\EasyReceipts.csprojResolveAssemblyReference.cache
