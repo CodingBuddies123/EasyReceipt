@@ -75,6 +75,16 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\navbar.css" />
     <Content Include="Content\sticky-footer.css" />
+    <Content Include="Credentials.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Credentials.edmx</DependentUpon>
+      <LastGenOutput>Credentials.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Credentials.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Credentials.edmx</DependentUpon>
+      <LastGenOutput>Credentials.cs</LastGenOutput>
+    </Content>
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="MainMenu.aspx" />
@@ -85,22 +95,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
-    <EntityDeploy Include="EasyReceipts.Entities.edmx">
+    <EntityDeploy Include="Credentials.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>EasyReceipts.Entities.Designer.cs</LastGenOutput>
+      <LastGenOutput>Credentials.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="EasyReceipts.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EasyReceipts.Entities.edmx</DependentUpon>
-      <LastGenOutput>EasyReceipts.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="EasyReceipts.Entities.edmx.diagram">
-      <DependentUpon>EasyReceipts.Entities.edmx</DependentUpon>
-    </Content>
-    <Content Include="EasyReceipts.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EasyReceipts.Entities.edmx</DependentUpon>
-      <LastGenOutput>EasyReceipts.cs</LastGenOutput>
+    <Content Include="Credentials.edmx.diagram">
+      <DependentUpon>Credentials.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -112,7 +112,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Credential.cs">
-      <DependentUpon>EasyReceipts.tt</DependentUpon>
+      <DependentUpon>Credentials.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Credentials.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Credentials.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Credentials.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Credentials.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Credentials.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Credentials.edmx</DependentUpon>
     </Compile>
     <Compile Include="Data\dbStoredProc.cs" />
     <Compile Include="Default.aspx.cs">
@@ -121,21 +136,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EasyReceipts.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EasyReceipts.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EasyReceipts.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EasyReceipts.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EasyReceipts.Entities.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EasyReceipts.Entities.edmx</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.aspx.cs">
       <DependentUpon>MainMenu.aspx</DependentUpon>
