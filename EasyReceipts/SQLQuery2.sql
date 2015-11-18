@@ -7,8 +7,8 @@ DECLARE	@return_value Int,
 SELECT	@outId = NULL
 
 EXEC	@return_value = [dbo].[spLogin]
-		@user = N'Hola',
-		@pwd = N'123456',
+		@user = N'Gkekgekgeg',
+		@pwd = N'aerae345',
 		@outId = @outId OUTPUT
 
 SELECT	@outId as N'@outId'
