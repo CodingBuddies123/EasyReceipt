@@ -6,11 +6,15 @@
 
 <head runat="server">
     <title></title>
-    <link href="Content/bootstrap.css" rel="stylesheet" />
-    
+    <link href="Content/bootstrap.css" rel="stylesheet" />    
     <link href="Content/navbar.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.intellisense.js"></script>
 </head>
 <body>
+
+  
     <form id="form1" runat="server">
         <div class="container">
 
@@ -22,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <div class="center-block col-lg-pull-2" style="float:none;">
+        <div class="center-block col-lg-pull-2" style="float: none;">
 
 
             <div class="container">
@@ -34,14 +38,14 @@
                                     <br />
                                     <div class="form-group">
 
-                                        <input class="form-control" placeholder="yourmail@example.com" name="email" type="text" size="10">
+                                        <input class="form-control" runat="server" placeholder="yourmail@example.com" name="email" type="text" size="10" id="user" />
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                                        <asp:TextBox CssClass="form-control"  ID="thePassword" runat="server" />
                                     </div>
                                     <div class="checkbox">
                                         <label>
-                                            <input name="remember" type="checkbox" value="Remember Me" runat="server">
+                                            <input name="remember" type="checkbox" value="Remember Me" runat="server" />
                                             Remember Me
                                         </label>
                                     </div>
@@ -50,8 +54,11 @@
                                         CssClass="btn btn-default"
                                         OnClick="Do_Something">
                                     Log In</asp:LinkButton>
+
+
+
                                     <br />
-                                   <br />
+                                    <br />
                                     <asp:LinkButton CssClass="btn btn-success" runat="server" ID="btn_Register">Register</asp:LinkButton>
 
 
