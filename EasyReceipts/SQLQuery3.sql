@@ -4,11 +4,9 @@ GO
 DECLARE	@return_value Int,
 		@outId int
 
-SELECT	@outId = NULL
-
 EXEC	@return_value = [dbo].[spLogin]
-		@user = N'Hola',
-		@pwd = N'123456',
+		@user = N'3453453453',
+		@pwd = N'45345345345',
 		@outId = @outId OUTPUT
 
 SELECT	@outId as N'@outId'
