@@ -8,7 +8,7 @@ using EasyReceipts.Data;
 using System.Data.SqlClient;
 using System.Web.DataAccess;
 
-namespace ReceiptFriend
+namespace EasyReceipts
 {
     public partial class Default : System.Web.UI.Page
     {
@@ -33,10 +33,34 @@ namespace ReceiptFriend
             createUser.ADD_INPUT_PARAMATER("@password", System.Data.SqlDbType.VarChar, pwd, -1);
             createUser.ADD_INPUT_PARAMATER("@id", System.Data.SqlDbType.Int, 3);
             createUser.EXECUTE_COMMAND();
-          
 
+            //ADO.net Reading from DB
+
+            //CredentialsEntities erEntities = new CredentialsEntities();
+
+        
+
+            //var query = from value in erEntities.Credentials
+            //           where value.User_Name != " "
+            //           select value.User_Name;
+
+
+            //var shortList = query.ToList();
+            ////lamda exp
+            //shortList.ForEach(x =>
+            //{
+
+            //    ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + x + "');", true);
+
+            //});
+
+
+              
             
-
+            
+            
+            
+          
                
            
         }

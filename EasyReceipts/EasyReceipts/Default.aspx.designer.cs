@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ReceiptFriend {
+namespace EasyReceipts {
     
     
     public partial class Default {
